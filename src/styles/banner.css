@@ -1,0 +1,16 @@
+.slider-item {
+    background-image: var(--bg-img);  
+    background-size: cover;
+    background-position: center center;
+    min-height: 45rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text-container {
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    padding: 0 1rem;
+}
