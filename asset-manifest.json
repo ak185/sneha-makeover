@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/makeover-with-beauty/static/css/main.e749d003.css",
-    "main.js": "/makeover-with-beauty/static/js/main.85c9962d.js",
-    "static/js/453.a726bffc.chunk.js": "/makeover-with-beauty/static/js/453.a726bffc.chunk.js",
-    "static/media/banner-1.jpg": "/makeover-with-beauty/static/media/banner-1.3429a73220cd3d377666.jpg",
-    "static/media/banner-2.jpg": "/makeover-with-beauty/static/media/banner-2.aefffe9856ead47b8b27.jpg",
-    "static/media/banner-3.jpg": "/makeover-with-beauty/static/media/banner-3.8a2dd6dcb58a7df0f628.jpg",
-    "static/media/slick.svg": "/makeover-with-beauty/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/makeover-with-beauty/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/makeover-with-beauty/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/makeover-with-beauty/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/makeover-with-beauty/index.html",
-    "main.e749d003.css.map": "/makeover-with-beauty/static/css/main.e749d003.css.map",
-    "main.85c9962d.js.map": "/makeover-with-beauty/static/js/main.85c9962d.js.map",
-    "453.a726bffc.chunk.js.map": "/makeover-with-beauty/static/js/453.a726bffc.chunk.js.map"
+    "main.css": "/sneha-makeover/static/css/main.780a8eff.css",
+    "main.js": "/sneha-makeover/static/js/main.a6dbbc45.js",
+    "static/js/453.a726bffc.chunk.js": "/sneha-makeover/static/js/453.a726bffc.chunk.js",
+    "static/media/banner-1.jpg": "/sneha-makeover/static/media/banner-1.3429a73220cd3d377666.jpg",
+    "static/media/banner-2.jpg": "/sneha-makeover/static/media/banner-2.aefffe9856ead47b8b27.jpg",
+    "static/media/banner-3.jpg": "/sneha-makeover/static/media/banner-3.8a2dd6dcb58a7df0f628.jpg",
+    "static/media/slick.svg": "/sneha-makeover/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/sneha-makeover/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/sneha-makeover/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/sneha-makeover/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/sneha-makeover/index.html",
+    "main.780a8eff.css.map": "/sneha-makeover/static/css/main.780a8eff.css.map",
+    "main.a6dbbc45.js.map": "/sneha-makeover/static/js/main.a6dbbc45.js.map",
+    "453.a726bffc.chunk.js.map": "/sneha-makeover/static/js/453.a726bffc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e749d003.css",
-    "static/js/main.85c9962d.js"
+    "static/css/main.780a8eff.css",
+    "static/js/main.a6dbbc45.js"
   ]
 }
