@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sneha-makeover/static/css/main.780a8eff.css",
-    "main.js": "/sneha-makeover/static/js/main.a6dbbc45.js",
+    "main.js": "/sneha-makeover/static/js/main.65fdf6a0.js",
     "static/js/453.a726bffc.chunk.js": "/sneha-makeover/static/js/453.a726bffc.chunk.js",
     "static/media/banner-1.jpg": "/sneha-makeover/static/media/banner-1.3429a73220cd3d377666.jpg",
     "static/media/banner-2.jpg": "/sneha-makeover/static/media/banner-2.aefffe9856ead47b8b27.jpg",
@@ -12,11 +12,11 @@
     "static/media/slick.woff": "/sneha-makeover/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/sneha-makeover/index.html",
     "main.780a8eff.css.map": "/sneha-makeover/static/css/main.780a8eff.css.map",
-    "main.a6dbbc45.js.map": "/sneha-makeover/static/js/main.a6dbbc45.js.map",
+    "main.65fdf6a0.js.map": "/sneha-makeover/static/js/main.65fdf6a0.js.map",
     "453.a726bffc.chunk.js.map": "/sneha-makeover/static/js/453.a726bffc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.780a8eff.css",
-    "static/js/main.a6dbbc45.js"
+    "static/js/main.65fdf6a0.js"
   ]
 }
