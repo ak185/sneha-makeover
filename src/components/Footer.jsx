@@ -3,11 +3,12 @@ import { Container, Nav, Navbar, Row, Col, ListGroup } from 'react-bootstrap';
 import { CiLocationOn, CiMobile2, CiMail } from "react-icons/ci";
 const Footer = () => {
     return(
-        <Container>
+        <>
+            <Container className="mt-5">
                 <Row>
                     <Col>
                         <div className="text-start">
-                            <h2>Quick Links</h2>
+                            <h4>Quick Links</h4>
                         </div>
                         <div>
                             <Navbar expand="lg" className="">
@@ -22,7 +23,7 @@ const Footer = () => {
                     </Col>
                     <Col>
                         <div className="text-center">
-                            <h2 className="">Contact Info</h2>
+                            <h4 className="">Contact Info</h4>
                         </div>
                         <div>
                             <ListGroup>
@@ -34,7 +35,7 @@ const Footer = () => {
                     </Col>
                     <Col>
                         <div className="text-end">
-                            <h2>Business Hours</h2>
+                            <h4>Business Hours</h4>
                         </div>
                         <div>
                             <ListGroup>
@@ -53,7 +54,7 @@ const Footer = () => {
                     </Col>
                 </Row>
             </Container>
-        
+        </>
     );
 };
 

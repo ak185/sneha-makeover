@@ -1,10 +1,10 @@
 import React from "react";
-import BannerSlider from "./BannerSlider";
+import BannerSlider from "../components/BannerSlider";
 
 const Home = () => {
     return (
         <>
-            <div>
+            <div className="mb-2">
                 <BannerSlider />
             </div>            
         </>

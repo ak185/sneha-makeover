@@ -1,13 +1,13 @@
 import React from "react";
 import Slider from "react-slick";
-import HeroText from "../components/HeroText";
+import HeroText from "./HeroText";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight, faAngleLeft } from "@fortawesome/free-solid-svg-icons";
-import banner1 from "../images/banner-1.jpg"
-import banner2 from "../images/banner-2.jpg"
-import banner3 from "../images/banner-3.jpg"
+import banner1 from "../images/beauty-english-open-rose.png"
+import banner2 from "../images/beauty-english-open-rose.png"
+import banner3 from "../images/beauty-english-open-rose.png"
 
 import '../styles/banner.css';
 function SampleNextArrow(props) {
@@ -17,12 +17,10 @@ function SampleNextArrow(props) {
         style={{ ...style, 
             display: "block", 
             border: "1px solid rgb(0 0 0 / 0%)", 
-            borderRadius: "5px 0px 0px 5px", 
-            background: "rgb(255 255 255 / 20%)",
-            color: "#ffffff",
+            borderRadius: "10px", 
             fontSize:"20px", 
             position: "absolute",
-            right: "0rem",
+            right: "0.5rem",
             top: "50%",
             zIndex: "99",
             height: '40px' }}
@@ -38,12 +36,10 @@ function SamplePrevArrow(props) {
     style={{ ...style, 
         display: "block", 
         border: "1px solid rgb(0 0 0 / 0%)", 
-        borderRadius: "0px 5px 5px 0px", 
-        background: "rgb(255 255 255 / 20%)",
-        color: "#ffffff",
+        borderRadius: "10px",
         fontSize:"20px", 
         position: "absolute",
-        left: "0rem",
+        left: "0.5rem",
         top: "50%",
         zIndex: "99",
         height: '40px'
@@ -57,11 +53,11 @@ function SamplePrevArrow(props) {
 
 const BannerSlider = () => {
     var settings = {
-        dots:true,
+        dots:false,
         infinite: true,
-        speed: 2000,
+        speed: 1500,
         autoplay: false,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 1500,
         slidesToShow: 1,
         slidesToScroll: 1,
         swipeToSlide: true,

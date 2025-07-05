@@ -1,16 +1,18 @@
 .slider-item {
     background-image: var(--bg-img);  
-    background-size: cover;
+    /* background-size: cover; */
     background-position: center center;
-    min-height: 45rem;
-
+    min-height: 35rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.slick-dots li button:before{
+    font-size: 15px !important;
+}
+
 .hero-text-container {
     text-align: center;
-    color: white;
     max-width: 800px;
     padding: 0 1rem;
 }
