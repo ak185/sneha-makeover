@@ -89,8 +89,8 @@ const BannerSlider = () => {
     return (
         <Slider {...settings}>
             {banners.map((bannerImg, index) => {
-                return <div>
-                    <div className="slider-item" style={{ '--bg-img': `url(${bannerImg})` }}>
+                return <div key={index}>
+                    <div className="slider-item">
                         <div className="banner-dark">            
                             <HeroText heading={headings[index]} text={bannerText[index]} />
                         </div>

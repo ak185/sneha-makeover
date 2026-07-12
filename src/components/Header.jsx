@@ -14,10 +14,10 @@ const Header = ({ isDarkMode, toggleDarkMode }) => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto"></Nav>
                         <Nav>
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#about">About</Nav.Link>
-                            <Nav.Link href="#services">Services</Nav.Link>
-                            <Nav.Link href="#contact">Contact Us</Nav.Link>
+                            <Nav.Link href="/">Home</Nav.Link>
+                            <Nav.Link href="/about">About</Nav.Link>
+                            <Nav.Link href="/service">Services</Nav.Link>
+                            <Nav.Link href="/contact">Contact Us</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                     <div className="dark-mode-box">

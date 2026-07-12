@@ -4,7 +4,7 @@ import BannerSlider from "../components/BannerSlider";
 const Home = () => {
     return (
         <>
-            <div className="mb-2">
+            <div className="mb-2" style={{ backgroundColor: "beige"}}>
                 <BannerSlider />
             </div>            
         </>
