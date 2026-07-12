@@ -5,11 +5,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight, faAngleLeft } from "@fortawesome/free-solid-svg-icons";
-import banner1 from "../images/beauty-english-open-rose.png"
-import banner2 from "../images/beauty-english-open-rose.png"
-import banner3 from "../images/beauty-english-open-rose.png"
+import banner1 from "../assets/images/beauty-english-open-rose.png"
+import banner2 from "../assets/images/beauty-english-open-rose.png"
+import banner3 from "../assets/images/beauty-english-open-rose.png"
 
-import '../styles/banner.css';
+import '../assets/css/banner.css';
 function SampleNextArrow(props) {
   const { style, onClick } = props;
   return (
