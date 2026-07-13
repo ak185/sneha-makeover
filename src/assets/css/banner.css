@@ -6,6 +6,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: bisque;
+}
+.hero-text-container{
+    background-color: bisque;
 }
 .slick-dots li button:before{
     font-size: 15px !important;

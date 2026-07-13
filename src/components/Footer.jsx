@@ -46,13 +46,11 @@ const Footer = () => {
                         </div>
                     </Col>
                 </Row>
-                <Row>
-                    <Col>
-                        <div className="text-center">
-                            @copyright sneha makover
-                        </div>
-                    </Col>
-                </Row>
+            </Container>
+            <Container fluid className="mt-2 px-0">
+                <div className="text-center coppyright-section py-2">
+                    @copyright sneha makover
+                </div>
             </Container>
         </>
     );

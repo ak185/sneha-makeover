@@ -1,7 +1,8 @@
 import React from "react";
 import { Routes, Route } from 'react-router-dom';
+import ProtectedRoutes from "./ProtectedRoutes";
 import Layout from '../layout/Layout';
-import { Home, About, Service, Contact, Register, Login, NotFound } from "../pages";
+import { Home, About, Service, Contact, Register, Login, Dashboard, NotFound } from "../pages";
 
 const AppRoutes = () => {
     return (
@@ -13,6 +14,12 @@ const AppRoutes = () => {
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/register" element={<Register />} />
                     <Route path="/login" element={<Login />} />
+                    <Route path = "/dashboard" element = {
+                        <ProtectedRoutes>
+                            <Dashboard />
+                        </ProtectedRoutes>
+                    } />
+
                     <Route path="*" element={<NotFound />} />
                 </Route>
             </Routes>
